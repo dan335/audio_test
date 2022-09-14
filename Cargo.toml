@@ -1,0 +1,15 @@
+[package]
+name = "audio_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.8.1"
+bevy_oddio = "0.2.0"
+bevy-steamworks = "0.5"
+steamworks = {git = "https://github.com/dan335/steamworks-rs"}
+
+[patch.crates-io]
+steamworks = {git = "https://github.com/dan335/steamworks-rs"}
