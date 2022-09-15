@@ -9,7 +9,7 @@ edition = "2021"
 bevy = "0.8.1"
 bevy_oddio = "0.2.0"
 bevy-steamworks = "0.5"
-steamworks = {git = "https://github.com/dan335/steamworks-rs"}
+# steamworks = {git = "https://github.com/dan335/steamworks-rs"}
 
 [patch.crates-io]
 steamworks = {git = "https://github.com/dan335/steamworks-rs"}
